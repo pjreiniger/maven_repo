@@ -5,6 +5,6 @@
   <groupId>com.snobot</groupId>
   <artifactId>snobotSim</artifactId>
   <version>1.0</version>
-  <packaging>zip</packaging>
+  <packaging>pom</packaging>
   <description>POM was created from install:install-file</description>
 </project>
