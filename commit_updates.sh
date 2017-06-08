@@ -7,7 +7,7 @@ setup_git() {
 
 commit_website_files() {
   git add .
-  git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+  git commit --message "Travis build of branch '$TRAVIS_REPO_SLUG' build number $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
