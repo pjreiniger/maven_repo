@@ -6,7 +6,6 @@ setup_git() {
 }
 
 commit_website_files() {
-  git clone --depth=50 --branch=master https://github.com/pjreiniger/maven_repo.git pjreiniger/maven_repo
   git add .
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
