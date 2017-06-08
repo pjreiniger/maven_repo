@@ -5,6 +5,5 @@
   <groupId>edu.wpilib</groupId>
   <artifactId>wpilibSim</artifactId>
   <version>1.0</version>
-  <packaging>zip</packaging>
-  <description>POM was created from install:install-file</description>
+  <packaging>pom</packaging>
 </project>
