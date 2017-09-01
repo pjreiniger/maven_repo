@@ -5,5 +5,4 @@
   <groupId>com.snobot.simulator</groupId>
   <artifactId>ctre_override</artifactId>
   <version>0.1</version>
-  <packaging>pom</packaging>
 </project>
