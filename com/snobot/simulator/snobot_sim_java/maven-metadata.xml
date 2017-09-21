@@ -7,10 +7,6 @@
     <versions>
       <version>0.2</version>
     </versions>
-<<<<<<< HEAD
     <lastUpdated>20170921020225</lastUpdated>
-=======
-    <lastUpdated>20170921011541</lastUpdated>
->>>>>>> branch 'master' of https://github.com/pjreiniger/maven_repo.git
   </versioning>
 </metadata>
