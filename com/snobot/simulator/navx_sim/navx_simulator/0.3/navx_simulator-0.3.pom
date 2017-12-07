@@ -5,5 +5,5 @@
   <groupId>com.snobot.simulator.navx_sim</groupId>
   <artifactId>navx_simulator</artifactId>
   <version>0.3</version>
-  <packaging>so</packaging>
+  <packaging>dll</packaging>
 </project>
