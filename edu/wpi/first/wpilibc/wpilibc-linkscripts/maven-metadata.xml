@@ -3,10 +3,10 @@
   <groupId>edu.wpi.first.wpilibc</groupId>
   <artifactId>wpilibc-linkscripts</artifactId>
   <versioning>
-    <release>LOCAL-20171226</release>
+    <release>LOCAL-20171228</release>
     <versions>
-      <version>LOCAL-20171226</version>
+      <version>LOCAL-20171228</version>
     </versions>
-    <lastUpdated>20171226154935</lastUpdated>
+    <lastUpdated>20171229133604</lastUpdated>
   </versioning>
 </metadata>
