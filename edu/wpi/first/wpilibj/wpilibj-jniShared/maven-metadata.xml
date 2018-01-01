@@ -3,10 +3,10 @@
   <groupId>edu.wpi.first.wpilibj</groupId>
   <artifactId>wpilibj-jniShared</artifactId>
   <versioning>
-    <release>LOCAL-20171228</release>
+    <release>LOCAL-20180101</release>
     <versions>
-      <version>LOCAL-20171228</version>
+      <version>LOCAL-20180101</version>
     </versions>
-    <lastUpdated>20171229133621</lastUpdated>
+    <lastUpdated>20180101175648</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>edu.wpi.first.halsim</groupId>
+  <artifactId>halsim-lowfi</artifactId>
+  <versioning>
+    <release>LOCAL-20180101</release>
+    <versions>
+      <version>LOCAL-20180101</version>
+    </versions>
+    <lastUpdated>20180101175659</lastUpdated>
+  </versioning>
+</metadata>
