@@ -1,12 +1,12 @@
 
-SET RELEASE_VERSION=0.7.0
+SET RELEASE_VERSION=0.7.1
 
 
 :: Add necessary files
 git add com/snobot/simulator/snobot_sim_java/%RELEASE_VERSION%/snobot_sim_java-%RELEASE_VERSION%-uber_native-windows.jar*
 git add com/snobot/simulator/wpilib/%RELEASE_VERSION%/wpilib-%RELEASE_VERSION%-wpi_native-windows.zip*
 git add com/snobot/simulator/navx_sim/navx_simulator/%RELEASE_VERSION%/navx_simulator-%RELEASE_VERSION%.dll*
-git add com/snobot/simulator/ctre_override/%RELEASE_VERSION%/ctre_override-%RELEASE_VERSION%-uber_native-windows.jar*
+git add com/snobot/simulator/ctre_override/%RELEASE_VERSION%/ctre_override-%RELEASE_VERSION%-native-windows.jar*
 
 :: Revert files that don't need to be override
 git checkout com/snobot/simulator/snobot_sim_java/%RELEASE_VERSION%/snobot_sim_java-%RELEASE_VERSION%-javadoc.jar*
