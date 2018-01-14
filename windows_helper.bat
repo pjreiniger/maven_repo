@@ -1,5 +1,5 @@
 
-SET RELEASE_VERSION=0.7.2
+SET RELEASE_VERSION=0.7.3
 
 
 :: Add necessary files
