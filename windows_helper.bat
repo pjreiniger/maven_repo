@@ -1,5 +1,5 @@
 
-SET RELEASE_VERSION=0.7.3
+SET RELEASE_VERSION=0.8.0
 
 
 :: Add necessary files
@@ -7,7 +7,7 @@ git add com/snobot/simulator/snobot_sim_java/%RELEASE_VERSION%/snobot_sim_java-%
 git add com/snobot/simulator/wpilib/%RELEASE_VERSION%/wpilib-%RELEASE_VERSION%-wpi_native-windows.zip*
 git add com/snobot/simulator/navx_sim/navx_simulator/%RELEASE_VERSION%/navx_simulator-%RELEASE_VERSION%.dll*
 git add com/snobot/simulator/ctre_override/%RELEASE_VERSION%/ctre_override-%RELEASE_VERSION%-native-windows.jar*
-git add com/snobot/simulator/snobot_sim_gui_eclipse_boilerplate/%RELEASE_VERSION%/snobot_sim_gui_eclipse_boilerplate-%RELEASE_VERSION%.zip*
+git add com/snobot/simulator/snobot_sim_gui_eclipse_boilerplate/%RELEASE_VERSION%/snobot_sim_gui_eclipse_boilerplate-%RELEASE_VERSION%-windows.zip*
 
 :: Revert files that don't need to be override
 git checkout com/snobot/simulator/snobot_sim_java/%RELEASE_VERSION%/snobot_sim_java-%RELEASE_VERSION%-javadoc.jar*
