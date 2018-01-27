@@ -3,13 +3,14 @@
   <groupId>com.snobot.simulator</groupId>
   <artifactId>snobot_sim_gui_eclipse_boilerplate</artifactId>
   <versioning>
-    <release>0.8.0</release>
+    <release>0.8.1</release>
     <versions>
       <version>0.7.1</version>
       <version>0.7.2</version>
       <version>0.7.3</version>
       <version>0.8.0</version>
+      <version>0.8.1</version>
     </versions>
-    <lastUpdated>20180126043521</lastUpdated>
+    <lastUpdated>20180127222418</lastUpdated>
   </versioning>
 </metadata>
