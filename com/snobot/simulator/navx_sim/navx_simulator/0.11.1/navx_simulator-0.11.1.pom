@@ -5,5 +5,5 @@
   <groupId>com.snobot.simulator.navx_sim</groupId>
   <artifactId>navx_simulator</artifactId>
   <version>0.11.1</version>
-  <packaging>dylib</packaging>
+  <packaging>so</packaging>
 </project>
