@@ -3,10 +3,10 @@
   <groupId>com.snobot.simulator</groupId>
   <artifactId>ctre_sim_override</artifactId>
   <versioning>
-    <release>V0_5.1.1.1</release>
+    <release>V0_5.1.2.1</release>
     <versions>
-      <version>V0_5.1.1.1</version>
+      <version>V0_5.1.2.1</version>
     </versions>
-    <lastUpdated>20180612033849</lastUpdated>
+    <lastUpdated>20180612034220</lastUpdated>
   </versioning>
 </metadata>
