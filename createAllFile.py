@@ -11,7 +11,8 @@ def createAll(root_path, library_name, version):
     natives = []
     natives.append(os.path.join(library_path, library_name + "-" + version + "-native-linux.jar"))
     natives.append(os.path.join(library_path, library_name + "-" + version + "-native-os x.jar"))
-    natives.append(os.path.join(library_path, library_name + "-" + version + "-native-windows.jar"))
+    natives.append(os.path.join(library_path, library_name + "-" + version + "-native-windows-x86.jar"))
+    natives.append(os.path.join(library_path, library_name + "-" + version + "-native-windows-x86-64.jar"))
         
     for native in natives:
         zip_ref = zipfile.ZipFile(native, 'r')
