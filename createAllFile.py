@@ -21,7 +21,7 @@ def createAll(root_path, library_name, version):
         
     
     # ziph is zipfile handle
-    ziph = zipfile.ZipFile(library_path + "/" + library_name + "-" + version + "-native-all.jar", 'w', zipfile.ZIP_DEFLATED)
+    ziph = zipfile.ZipFile(library_path + "/" + library_name + "-" + version + "-all.jar", 'w', zipfile.ZIP_DEFLATED)
     for root, dirs, files in os.walk(temp_build_dir):
         for file in files:
             full_path = os.path.join(root, file)
