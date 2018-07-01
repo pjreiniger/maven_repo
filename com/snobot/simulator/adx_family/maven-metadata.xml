@@ -3,10 +3,11 @@
   <groupId>com.snobot.simulator</groupId>
   <artifactId>adx_family</artifactId>
   <versioning>
-    <release>dev-2019-0.0.0</release>
+    <release>2018-1.0.0</release>
     <versions>
       <version>dev-2019-0.0.0</version>
+      <version>2018-1.0.0</version>
     </versions>
-    <lastUpdated>20180503015327</lastUpdated>
+    <lastUpdated>20180701181911</lastUpdated>
   </versioning>
 </metadata>

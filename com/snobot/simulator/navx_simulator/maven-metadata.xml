@@ -3,10 +3,11 @@
   <groupId>com.snobot.simulator</groupId>
   <artifactId>navx_simulator</artifactId>
   <versioning>
-    <release>dev-2019-0.0.0</release>
+    <release>2018-1.0.0</release>
     <versions>
       <version>dev-2019-0.0.0</version>
+      <version>2018-1.0.0</version>
     </versions>
-    <lastUpdated>20180503015329</lastUpdated>
+    <lastUpdated>20180701181913</lastUpdated>
   </versioning>
 </metadata>
