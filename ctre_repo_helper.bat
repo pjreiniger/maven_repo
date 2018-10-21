@@ -1,10 +1,10 @@
 
-SET RELEASE_VERSION=V0_5.3.1.0
+SET RELEASE_VERSION=V1_5.2.1.1
 
 
 :: Add necessary files
-git add com/snobot/simulator/ctre_sim_override/%RELEASE_VERSION%/ctre_sim_override-%RELEASE_VERSION%-native-windows-x86.jar*
-git add com/snobot/simulator/ctre_sim_override/%RELEASE_VERSION%/ctre_sim_override-%RELEASE_VERSION%-native-windows-x64_86.jar*
+git add com/snobot/simulator/ctre_sim_override/%RELEASE_VERSION%/ctre_sim_override-%RELEASE_VERSION%-windows-x86.jar*
+git add com/snobot/simulator/ctre_sim_override/%RELEASE_VERSION%/ctre_sim_override-%RELEASE_VERSION%-windows-x86-64.jar*
 
 :: Revert files that don't need to be override
 git checkout com/snobot/simulator/ctre_sim_override/%RELEASE_VERSION%/ctre_sim_override-%RELEASE_VERSION%.jar*

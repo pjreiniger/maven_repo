@@ -26,12 +26,12 @@ def createAll(root_path, library_name, version):
         for file in files:
             full_path = os.path.join(root, file)
             zip_path = full_path[len(temp_build_dir)+len(os.sep):] #XXX: relative path
-            print full_path, zip_path
+            print (full_path + ", " + zip_path)
             ziph.write(full_path, zip_path)
 
     pass
 
-is_simulator = True
+is_simulator = False
 
 if is_simulator:
     version = "2018-1.0.0"
@@ -39,4 +39,4 @@ if is_simulator:
     createAll("com/snobot/simulator", "adx_family", version)
     createAll("com/snobot/simulator", "temp_hal_interface", version)
 else:
-    createAll("com/snobot/simulator", "ctre_sim_override", "V0_5.3.1.0")
+    createAll("com/snobot/simulator", "ctre_sim_override", "V1_5.2.1.1")
