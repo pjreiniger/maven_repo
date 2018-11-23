@@ -9,10 +9,10 @@ def createAll(root_path, library_name, version):
     library_path = os.path.join(rootdir, root_path, library_name, version)
     
     natives = []
-    natives.append(os.path.join(library_path, library_name + "-" + version + "-linux-x86-64.jar"))
-    natives.append(os.path.join(library_path, library_name + "-" + version + "-os x-x86-64.jar"))
-    natives.append(os.path.join(library_path, library_name + "-" + version + "-windows-x86.jar"))
-    natives.append(os.path.join(library_path, library_name + "-" + version + "-windows-x86-64.jar"))
+    natives.append(os.path.join(library_path, library_name + "-" + version + "-linuxx86-64.jar"))
+    natives.append(os.path.join(library_path, library_name + "-" + version + "-os xx86-64.jar"))
+    natives.append(os.path.join(library_path, library_name + "-" + version + "-windowsx86.jar"))
+    natives.append(os.path.join(library_path, library_name + "-" + version + "-windowsx86-64.jar"))
         
     for native in natives:
         zip_ref = zipfile.ZipFile(native, 'r')
@@ -31,12 +31,12 @@ def createAll(root_path, library_name, version):
 
     pass
 
-is_simulator = False
+is_simulator = True
 
 if is_simulator:
-    version = "2018-1.0.0"
+    version = "2019-0.0.0"
     createAll("com/snobot/simulator", "navx_simulator", version)
     createAll("com/snobot/simulator", "adx_family", version)
-    createAll("com/snobot/simulator", "temp_hal_interface", version)
+    createAll("com/snobot/simulator", "snobot_sim_jni", version)
 else:
     createAll("com/snobot/simulator", "ctre_sim_override", "V1_5.2.1.1")
