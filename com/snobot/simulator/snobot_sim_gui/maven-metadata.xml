@@ -3,7 +3,7 @@
   <groupId>com.snobot.simulator</groupId>
   <artifactId>snobot_sim_gui</artifactId>
   <versioning>
-    <release>2019-0.0.0</release>
+    <release>2019-0.0.1-RC</release>
     <versions>
       <version>0.3</version>
       <version>0.4</version>
@@ -23,7 +23,8 @@
       <version>2018-1.0.0</version>
       <version>2018-2.0.0</version>
       <version>2019-0.0.0</version>
+      <version>2019-0.0.1-RC</version>
     </versions>
-    <lastUpdated>20181123211641</lastUpdated>
+    <lastUpdated>20181201033058</lastUpdated>
   </versioning>
 </metadata>
