@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.snobot.simulator</groupId>
+  <artifactId>snobot_sim_gui</artifactId>
+  <versioning>
+    <release>2019-0.0.1-RC</release>
+    <versions>
+      <version>2019-0.0.1-RC</version>
+    </versions>
+    <lastUpdated>20181202081701</lastUpdated>
+  </versioning>
+</metadata>
