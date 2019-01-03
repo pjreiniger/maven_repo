@@ -31,7 +31,7 @@ def createAll(root_path, library_name, version):
 
     pass
 
-is_simulator = True
+is_simulator = False
 
 if is_simulator:
     version = "2019-0.0.0"
@@ -39,4 +39,4 @@ if is_simulator:
     createAll("com/snobot/simulator", "adx_family", version)
     createAll("com/snobot/simulator", "snobot_sim_jni", version)
 else:
-    createAll("com/snobot/simulator", "ctre_sim_override", "V1_5.2.1.1")
+    createAll("com/snobot/simulator", "ctre_sim_override", "V0_5.9.2_RC")
