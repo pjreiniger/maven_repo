@@ -10,7 +10,7 @@ def createAll(root_path, library_name, version):
     
     natives = []
     natives.append(os.path.join(library_path, library_name + "-" + version + "-linuxx86-64.jar"))
-    natives.append(os.path.join(library_path, library_name + "-" + version + "-os xx86-64.jar"))
+    natives.append(os.path.join(library_path, library_name + "-" + version + "-osxx86-64.jar"))
     natives.append(os.path.join(library_path, library_name + "-" + version + "-windowsx86.jar"))
     natives.append(os.path.join(library_path, library_name + "-" + version + "-windowsx86-64.jar"))
         
@@ -39,4 +39,4 @@ if is_simulator:
     createAll("com/snobot/simulator", "adx_family", version)
     createAll("com/snobot/simulator", "snobot_sim_jni", version)
 else:
-    createAll("com/snobot/simulator", "ctre_sim_override", "V0_5.9.2_RC")
+    createAll("com/snobot/simulator", "ctre_sim_override", "5.12.0_V0_RC")
