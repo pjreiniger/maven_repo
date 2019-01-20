@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.snobot.simulator</groupId>
+  <artifactId>ctre_sim_override</artifactId>
+  <versioning>
+    <release>5.12.0_V1_RC</release>
+    <versions>
+      <version>5.12.0_V1_RC</version>
+    </versions>
+    <lastUpdated>20190120191142</lastUpdated>
+  </versioning>
+</metadata>

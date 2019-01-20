@@ -39,4 +39,4 @@ if is_simulator:
     createAll("com/snobot/simulator", "adx_family", version)
     createAll("com/snobot/simulator", "snobot_sim_jni", version)
 else:
-    createAll("com/snobot/simulator", "ctre_sim_override", "5.12.0_V0_RC")
+    createAll("com/snobot/simulator", "ctre_sim_override", "5.12.0_V1_RC")
