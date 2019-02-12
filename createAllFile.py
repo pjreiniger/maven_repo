@@ -31,12 +31,16 @@ def createAll(root_path, library_name, version):
 
     pass
 
-is_simulator = False
+release_type = "RevSim"
 
-if is_simulator:
+if release_type == "SnobotSim":
     version = "2019-0.0.0"
     createAll("com/snobot/simulator", "navx_simulator", version)
     createAll("com/snobot/simulator", "adx_family", version)
     createAll("com/snobot/simulator", "snobot_sim_jni", version)
-else:
+elif release_type == "CtreSim":
     createAll("com/snobot/simulator", "ctre_sim_override", "5.12.0_V1_RC")
+elif release_type == "RevSim":
+    createAll("com/snobot/simulator", "rev_simulator", "1.0.28_V0")
+else:
+    print("Invalid release type " + release_type)
