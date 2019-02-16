@@ -31,10 +31,10 @@ def createAll(root_path, library_name, version):
 
     pass
 
-release_type = "RevSim"
+release_type = "SnobotSim"
 
 if release_type == "SnobotSim":
-    version = "2019-0.0.0"
+    version = "2019-1.1.0"
     createAll("com/snobot/simulator", "navx_simulator", version)
     createAll("com/snobot/simulator", "adx_family", version)
     createAll("com/snobot/simulator", "snobot_sim_jni", version)
