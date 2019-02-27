@@ -31,7 +31,7 @@ def createAll(root_path, library_name, version):
 
     pass
 
-release_type = "SnobotSim"
+release_type = "RevSim"
 
 if release_type == "SnobotSim":
     version = "2019-1.1.0"
@@ -41,6 +41,6 @@ if release_type == "SnobotSim":
 elif release_type == "CtreSim":
     createAll("com/snobot/simulator", "ctre_sim_override", "5.12.0_V1_RC")
 elif release_type == "RevSim":
-    createAll("com/snobot/simulator", "rev_simulator", "1.1.8_V0")
+    createAll("com/snobot/simulator", "rev_simulator", "1.1.9_V0")
 else:
     print("Invalid release type " + release_type)
