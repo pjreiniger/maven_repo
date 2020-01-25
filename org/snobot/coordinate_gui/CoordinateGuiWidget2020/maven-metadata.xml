@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.snobot.coordinate_gui</groupId>
+  <artifactId>CoordinateGuiWidget2020</artifactId>
+  <versioning>
+    <release>3.0.0</release>
+    <versions>
+      <version>3.0.0</version>
+    </versions>
+    <lastUpdated>20200125055125</lastUpdated>
+  </versioning>
+</metadata>
