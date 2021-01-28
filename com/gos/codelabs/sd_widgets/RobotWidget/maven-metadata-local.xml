@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.gos.codelabs.sd_widgets</groupId>
+  <artifactId>RobotWidget</artifactId>
+  <versioning>
+    <latest>2021.0.0</latest>
+    <release>2021.0.0</release>
+    <versions>
+      <version>2021.0.0</version>
+    </versions>
+    <lastUpdated>20210128052810</lastUpdated>
+  </versioning>
+</metadata>
